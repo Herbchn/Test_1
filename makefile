@@ -5,4 +5,4 @@ hello.o : src/hello.cpp src/count.h
 count.o : src/count.cpp
 	g++ -c src/count.cpp src/count.o
 clean :
-	rm -rf src/*.o hello
+	rm -rf src/*.o src/hello
